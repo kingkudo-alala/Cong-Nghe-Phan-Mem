@@ -1,1 +1,97 @@
+1. Responsive Web Application (Ứng dụng Web tương thích đa thiết bị)
+Hệ thống cần được thiết kế theo hướng Responsive Web Design, cho phép giao diện tự động điều chỉnh phù hợp với nhiều kích thước màn hình và độ phân giải khác nhau, bao gồm máy tính để bàn, laptop, máy tính bảng và điện thoại di động.
 
+Các thành phần giao diện như thanh điều hướng, biểu mẫu, hình ảnh, danh sách thành viên và sơ đồ gia phả phải được bố trí hợp lý, dễ quan sát và thuận tiện khi thao tác. Đặc biệt, các chức năng thường xuyên sử dụng như đăng nhập, tìm kiếm thành viên, xem gia phả, đăng bài viết và quản lý sự kiện cần được tối ưu để người dùng có thể truy cập dễ dàng trên mọi thiết bị.
+
+Giao diện cần đảm bảo tính nhất quán về màu sắc, bố cục, kiểu chữ và cách sử dụng giữa các kích thước màn hình, đồng thời hạn chế tình trạng vỡ giao diện hoặc hiển thị sai nội dung.
+2. Cross-platform Mobile Application (Ứng dụng di động đa nền tảng)
+Ứng dụng FamilyConnect cần hỗ trợ hai hệ điều hành phổ biến là Android và iOS, giúp người dùng có thể truy cập nền tảng thông qua điện thoại hoặc máy tính bảng mà không bị giới hạn bởi thiết bị sử dụng.
+
+Ứng dụng cần cung cấp các chức năng chính tương tự phiên bản Web, bao gồm đăng nhập, quản lý thông tin cá nhân, xem và cập nhật gia phả, chia sẻ hình ảnh, đăng bài viết, theo dõi hoạt động gia đình và nhận thông báo về sự kiện.
+
+Bên cạnh đó, ứng dụng phải được tối ưu về tốc độ tải dữ liệu, mức tiêu thụ tài nguyên và khả năng hoạt động trên nhiều phiên bản hệ điều hành. Giao diện di động cần đơn giản, trực quan và phù hợp với thói quen sử dụng của nhiều nhóm tuổi, đặc biệt là những thành viên không có nhiều kinh nghiệm về công nghệ.
+3. Secure Authentication (JWT) (Xác thực và bảo mật bằng JWT)
+Hệ thống cần triển khai cơ chế xác thực người dùng bằng JSON Web Token (JWT) nhằm đảm bảo chỉ những người dùng đã được xác thực mới có thể truy cập các chức năng được cấp quyền.
+
+Khi đăng nhập thành công, hệ thống cấp token để xác định danh tính người dùng trong các yêu cầu tiếp theo. Token cần có thời hạn sử dụng phù hợp và được kiểm tra ở phía máy chủ trước khi cho phép truy cập tài nguyên. Hệ thống cũng cần có cơ chế làm mới hoặc thu hồi phiên đăng nhập khi cần thiết.
+
+Mật khẩu người dùng phải được băm bằng thuật toán chuyên dụng như BCrypt hoặc Argon2 trước khi lưu vào cơ sở dữ liệu. Ngoài ra, hệ thống cần áp dụng phân quyền theo vai trò để kiểm soát quyền truy cập vào các chức năng như quản lý gia phả, chỉnh sửa thông tin thành viên, quản lý bài viết và quản trị cộng đồng.
+
+Các dữ liệu quan trọng cần được bảo vệ trong quá trình truyền tải thông qua HTTPS, đồng thời hạn chế các nguy cơ như truy cập trái phép, giả mạo tài khoản và đánh cắp thông tin cá nhân.
+4. RESTful API Architecture (Kiến trúc API RESTful)
+Hệ thống cần sử dụng kiến trúc RESTful API để kết nối và trao đổi dữ liệu giữa giao diện người dùng (Frontend), máy chủ xử lý (Backend) và các dịch vụ bên ngoài.
+
+Các API cần được tổ chức theo từng nhóm chức năng riêng biệt, chẳng hạn như quản lý người dùng, quản lý thành viên gia đình, quan hệ huyết thống, bài viết, sự kiện, thông báo và dịch vụ AI. Việc sử dụng các phương thức HTTP như GET, POST, PUT, PATCH và DELETE giúp các thao tác dữ liệu được thực hiện theo một quy chuẩn thống nhất.
+
+Mỗi API cần có cấu trúc dữ liệu đầu vào và đầu ra rõ ràng, sử dụng định dạng JSON để thuận tiện cho việc trao đổi thông tin. Hệ thống cũng cần xử lý các trường hợp lỗi như dữ liệu không hợp lệ, người dùng không đủ quyền truy cập, tài nguyên không tồn tại hoặc máy chủ gặp sự cố.
+
+Ngoài ra, API cần có tài liệu mô tả cụ thể về endpoint, phương thức, tham số và kết quả trả về nhằm hỗ trợ quá trình phát triển, kiểm thử và bảo trì hệ thống.
+5. Modular Software Architecture (Kiến trúc phần mềm dạng module)
+Phần mềm cần được xây dựng theo kiến trúc module hóa, trong đó mỗi nhóm chức năng được phát triển thành một thành phần tương đối độc lập. Cách tổ chức này giúp hệ thống dễ quản lý, nâng cấp và mở rộng khi số lượng người dùng cũng như chức năng ngày càng tăng.
+
+Các module chính của FamilyConnect bao gồm:
+- User Management: Quản lý tài khoản, thông tin cá nhân, đăng nhập và phân quyền người dùng.
+- Family Management: Quản lý thông tin gia đình, thành viên và các mối quan hệ huyết thống.
+- Genealogy Management: Xây dựng, cập nhật và hiển thị sơ đồ gia phả.
+- Community Management: Quản lý bài viết, bình luận, hình ảnh và hoạt động chia sẻ trong cộng đồng gia đình.
+- Event Management: Quản lý sự kiện, lịch họp mặt, ngày kỷ niệm và các hoạt động chung.
+- AI Integration: Tích hợp trí tuệ nhân tạo để hỗ trợ tìm kiếm thông tin, đề xuất nội dung và giải đáp thắc mắc.
+Mỗi module cần có trách nhiệm rõ ràng, hạn chế phụ thuộc trực tiếp vào các module khác và giao tiếp thông qua những giao diện thống nhất. Điều này giúp việc kiểm thử, sửa lỗi và bổ sung chức năng mới không làm ảnh hưởng lớn đến toàn bộ hệ thống.
+6. Interactive Graph Visualization (Trực quan hóa sơ đồ gia phả)
+FamilyConnect cần cung cấp khả năng trực quan hóa dữ liệu gia phả dưới dạng sơ đồ quan hệ giữa các thành viên trong gia đình. Sơ đồ phải thể hiện rõ các thế hệ, mối quan hệ cha mẹ, con cái, vợ chồng và những liên kết gia đình phù hợp với dữ liệu được lưu trữ.
+
+Người dùng có thể tương tác trực tiếp với sơ đồ thông qua các thao tác như phóng to, thu nhỏ, di chuyển vị trí hiển thị và lựa chọn từng thành viên để xem thông tin chi tiết. Khi có thành viên mới hoặc thông tin quan hệ được cập nhật, sơ đồ cần được điều chỉnh tương ứng với dữ liệu mới.
+
+Đối với những gia đình có số lượng thành viên lớn và nhiều thế hệ, hệ thống cần tối ưu cách hiển thị để tránh tình trạng sơ đồ quá phức tạp, khó quan sát hoặc làm giảm hiệu suất trình duyệt.
+
+Ngoài ra, giao diện cần hỗ trợ người dùng dễ dàng chuyển đổi giữa việc xem tổng quan toàn bộ gia phả và xem thông tin chi tiết của từng nhánh gia đình.
+7. PostgreSQL Database (Cơ sở dữ liệu PostgreSQL)
+Hệ thống sử dụng PostgreSQL làm hệ quản trị cơ sở dữ liệu chính để lưu trữ và quản lý thông tin của nền tảng FamilyConnect.
+
+Cơ sở dữ liệu cần được thiết kế để quản lý các nhóm dữ liệu quan trọng như tài khoản người dùng, thông tin cá nhân, thành viên gia đình, quan hệ huyết thống, bài viết, hình ảnh, bình luận, sự kiện và thông báo.
+
+Việc tổ chức dữ liệu cần đảm bảo tính nhất quán, hạn chế trùng lặp và duy trì mối liên kết chính xác giữa các bảng. Các ràng buộc khóa chính, khóa ngoại và các quy tắc kiểm tra dữ liệu cần được sử dụng để đảm bảo tính toàn vẹn.
+
+Đối với các thao tác quan trọng như thêm thành viên, cập nhật quan hệ gia đình hoặc chỉnh sửa thông tin gia phả, hệ thống cần sử dụng cơ chế giao dịch (Transaction) để tránh dữ liệu bị cập nhật không đồng bộ khi xảy ra lỗi.
+
+Bên cạnh đó, cần tối ưu truy vấn bằng cách sử dụng chỉ mục (Index) đối với những trường thường xuyên được tìm kiếm, đồng thời triển khai cơ chế sao lưu và phục hồi dữ liệu định kỳ nhằm hạn chế nguy cơ mất mát thông tin.
+8. AI Service Integration (Tích hợp dịch vụ trí tuệ nhân tạo)
+Hệ thống cần có khả năng tích hợp các dịch vụ trí tuệ nhân tạo nhằm nâng cao trải nghiệm người dùng và hỗ trợ việc quản lý, khai thác thông tin gia đình.
+
+AI có thể được sử dụng để hỗ trợ tìm kiếm thông tin thành viên, giải đáp các câu hỏi liên quan đến dữ liệu gia phả, đề xuất nội dung phù hợp và hỗ trợ người dùng tra cứu thông tin về lịch sử gia đình.
+
+Các chức năng AI cần được thiết kế dưới dạng dịch vụ riêng biệt, giao tiếp với Backend thông qua API. Cách triển khai này giúp hệ thống dễ dàng thay đổi nhà cung cấp AI hoặc nâng cấp mô hình mà không phải chỉnh sửa quá nhiều thành phần khác.
+
+Dữ liệu được cung cấp cho AI cần được kiểm soát quyền truy cập, đặc biệt đối với những thông tin cá nhân và nội dung riêng tư của gia đình. AI chỉ được phép khai thác dữ liệu mà người dùng có quyền truy cập, không tự ý tiết lộ thông tin thuộc phạm vi riêng tư.
+
+Ngoài ra, hệ thống cần có cơ chế xử lý khi dịch vụ AI không phản hồi, trả về kết quả không phù hợp hoặc tạm thời không khả dụng. Các chức năng cơ bản của FamilyConnect vẫn cần hoạt động bình thường ngay cả khi dịch vụ AI gặp sự cố.
+9. Docker Deployment (Triển khai hệ thống bằng Docker)
+Hệ thống cần hỗ trợ triển khai bằng Docker nhằm đóng gói ứng dụng và các thành phần phụ thuộc thành những môi trường thực thi độc lập.
+
+Các thành phần như Frontend, Backend, PostgreSQL và các dịch vụ hỗ trợ có thể được tổ chức thành những container riêng biệt. Docker Compose có thể được sử dụng để quản lý và khởi chạy nhiều container trong cùng một môi trường triển khai.
+
+Việc sử dụng Docker giúp đảm bảo tính nhất quán giữa môi trường phát triển, kiểm thử và vận hành thực tế, hạn chế các lỗi phát sinh do khác biệt về hệ điều hành hoặc phiên bản thư viện.
+
+Ngoài ra, hệ thống cần hỗ trợ quản lý biến môi trường, cấu hình kết nối cơ sở dữ liệu, lưu trữ dữ liệu bền vững thông qua Docker Volumes và thuận tiện cho việc cập nhật phiên bản ứng dụng khi cần thiết.
+10. High Availability (Tính sẵn sàng và độ ổn định cao)
+FamilyConnect cần đảm bảo hệ thống có thể hoạt động ổn định và phục vụ người dùng trong thời gian dài, hạn chế tối đa tình trạng gián đoạn dịch vụ.
+
+Các thành phần quan trọng như Backend, cơ sở dữ liệu và dịch vụ lưu trữ cần được giám sát để phát hiện sớm lỗi hoặc tình trạng quá tải. Hệ thống nên có cơ chế xử lý lỗi, giới hạn thời gian chờ và thử lại đối với những yêu cầu tạm thời thất bại.
+
+Đối với cơ sở dữ liệu, cần thực hiện sao lưu định kỳ và xây dựng quy trình phục hồi khi xảy ra sự cố. Những dữ liệu quan trọng như thông tin thành viên, quan hệ gia phả và hình ảnh gia đình cần được ưu tiên bảo vệ.
+
+Ngoài ra, hệ thống cần có khả năng mở rộng tài nguyên khi số lượng người dùng tăng lên, tránh tình trạng tốc độ xử lý giảm mạnh khi có nhiều người truy cập đồng thời. Các hoạt động giám sát hiệu suất cũng cần được thực hiện thường xuyên để duy trì chất lượng dịch vụ.
+11. Audit Logging (Ghi nhật ký hoạt động hệ thống)
+Hệ thống cần triển khai cơ chế ghi nhật ký (Audit Logging) nhằm theo dõi và lưu lại những hoạt động quan trọng diễn ra trong quá trình sử dụng FamilyConnect.
+
+Các hoạt động cần được ghi nhận bao gồm:
+- Đăng nhập, đăng xuất và các lần đăng nhập không thành công.
+- Tạo mới, chỉnh sửa hoặc xóa thông tin cá nhân.
+- Thêm, cập nhật hoặc xóa thành viên trong gia phả.
+- Thay đổi mối quan hệ giữa các thành viên.
+- Tạo, chỉnh sửa hoặc xóa bài viết và sự kiện.
+- Thay đổi quyền truy cập và vai trò người dùng.
+- Các thao tác quản trị quan trọng của hệ thống.
+Mỗi bản ghi nhật ký cần lưu lại những thông tin cần thiết như người thực hiện, hành động, thời gian thực hiện, đối tượng bị tác động và kết quả xử lý. Đối với những thao tác chỉnh sửa dữ liệu quan trọng, hệ thống nên lưu lại thông tin trước và sau khi thay đổi để hỗ trợ việc kiểm tra khi cần thiết.
+
+Nhật ký cần được bảo vệ nhằm hạn chế việc chỉnh sửa hoặc xóa trái phép. Đồng thời, cần có chính sách lưu trữ và thời hạn lưu nhật ký phù hợp để tránh làm tăng dung lượng dữ liệu không cần thiết.
