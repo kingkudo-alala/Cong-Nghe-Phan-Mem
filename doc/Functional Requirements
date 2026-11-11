@@ -1,3 +1,154 @@
+1. Người dùng & Bảo mật (User & Security)
+Mục này đảm bảo an toàn thông tin, quản lý quyền truy cập và xác thực danh tính người dùng trong toàn bộ hệ thống.
+
+1.1. Đăng ký & Xác thực người dùng (User registration and authentication)
+Đăng ký tài khoản: Cho phép người dùng tạo tài khoản mới qua Email, Số điện thoại hoặc liên kết mạng xã hội
+
+Đăng nhập an toàn: Hỗ trợ xác thực người dùng bằng mật khẩu và mã OTP/JWT, hỗ trợ tính năng quên mật khẩu và đổi mật khẩu
+
+1.2. Phân quyền dựa trên vai trò (Role-Based Access Control - RBAC)
+Phân cấp vai trò: Cấp quyền chi tiết cho các nhóm vai trò như Super Admin, Admin dòng họ, Admin nhánh chi, và Thành viên thông thường
+
+Kiểm soát truy cập: Giới hạn quyền xem, thêm, sửa, xóa dữ liệu tương ứng với từng vai trò hệ thống
+
+1.3. Quản lý hồ sơ cá nhân (User profile management)
+Cập nhật thông tin: Cho phép người dùng xem và chỉnh sửa thông tin cá nhân như họ tên, ngày sinh, ảnh đại diện, địa chỉ, liên hệ
+
+Cài đặt quyền riêng tư: Tùy chỉnh mức độ hiển thị thông tin cá nhân đối với các thành viên khác trong dòng họ
+
+1.4. Xác minh thành viên dòng họ (Family member verification)
+Yêu cầu xác minh: Người dùng gửi yêu cầu liên kết tài khoản cá nhân với một hồ sơ thành viên cụ thể trên cây gia phả
+
+Phê duyệt xác minh: Ban quản trị dòng họ hoặc Trưởng chi kiểm tra thông tin và phê duyệt/từ chối liên kết tài khoản
+
+2. Quản lý Gia tộc & Gia phả (Family & Genealogy Management)
+Mục này là nhân cốt lõi của hệ thống, giúp xây dựng, quản lý và trực quan hóa mối quan hệ huyết thống giữa các thành viên.
+
+2.1. Quản lý gia tộc (Family management)
+Khởi tạo gia tộc: Cho phép thiết lập thông tin chung về dòng họ, lịch sử hình thành, quy ước và nội quy gia tộc
+
+Quản lý thông tin chung: Cập nhật các mốc sự kiện lớn, ban quản trị dòng họ qua các thời kỳ
+
+2.2. Quản lý nhánh chi (Branch management)
+Phân chi xóm/nhánh: Tạo và quản lý cấu trúc các nhánh, chi, phái trong dòng họ
+
+Phân công quản trị chi: Gán quyền quản lý từng nhánh chi cho các trưởng chi hoặc người đại diện
+
+2.3.Quản lý thành viên (Member management)
+Quản lý hồ sơ cá nhân: Tạo mới, cập nhật và lưu trữ thông tin chi tiết của từng thành viên trong gia tộc bao gồm họ tên, tên gọi khác/thụy hiệu, ngày tháng năm sinh, ngày mất, nơi an táng và quê quán
+
+Phân loại tình trạng thành viên: Quản lý và theo dõi trạng thái thành viên (còn sống hay đã mất), phân loại thành viên chính thức, dâu/rể, hoặc con nuôi
+
+Quản lý thế hệ và thứ tự sinh: Ghi nhận vị trí thế hệ (đời thứ mấy) và phân chia thứ tự sinh (con trưởng, con thứ) của từng thành viên trong dòng họ
+
+Quản lý trạng thái hồ sơ: Đánh dấu và theo dõi mức độ hoàn thiện của thông tin thành viên, hỗ trợ tìm kiếm và lọc danh sách thành viên theo nhiều tiêu chí
+
+2.4. Quản lý mối quan hệ Cha - Con (Parent-child relationship management)
+Thêm nối quan hệ huyết thống: Cấu hình quan hệ cha-con, mẹ-con (bao gồm con ruột, con nuôi) cho từng thành viên
+
+Điều chỉnh thứ bậc: Quản lý thứ tự sinh (con trưởng, con thứ) và thế hệ (đời) trong gia phả
+
+2.5. Quản lý hôn nhân (Marriage management)
+Ghi nhận quan hệ vợ/chồng: Thêm thông tin phối ngẫu (dâu/rể), ngày kết hôn, tình trạng hôn nhân
+
+Lưu trữ thông tin phối ngẫu: Cập nhật xuất thân, thông tin cá nhân của dâu/rể vào hệ thống
+
+2.6. Cây gia phả tương tác (Interactive genealogy tree)
+Hiển thị trực quan: Trực quan hóa toàn bộ dòng họ dưới dạng cây gia phả tương tác đa chiều
+
+Thao tác linh hoạt: Cho phép phóng to, thu nhỏ, kéo thả, phóng to từng nhánh chi hoặc lọc cây theo đời
+
+2.7. Trực quan hóa mối quan hệ (Relationship visualization)
+Sơ đồ kết nối: Hiển thị sơ đồ liên kết mối quan hệ giữa một thành viên bất kỳ với các thành viên khác trong họ
+
+Đánh dấu nhánh: Tô màu và phân biệt rõ ràng các nhánh chi, đời và thế hệ trên giao diện
+
+2.8. Truy vấn mối quan hệ (Relationship query)
+Tra cứu xưng hô: Tìm kiếm và xác định mối quan hệ họ hàng chính xác giữa hai thành viên bất kỳ trong dòng họ
+
+Xác định thứ bậc: Trả về đường đi quan hệ huyết thống ngắn nhất giữa hai người
+
+3. Cộng đồng dòng họ (Community)
+Mục này tạo không gian tương tác, chia sẻ tin tức và thắt chặt tình đoàn kết giữa các thành viên gia tộc.
+
+3.1. Tạo và quản lý bài viết (Create and manage posts)
+Soạn thảo bài viết: Cho phép thành viên đăng bài chia sẻ cảm nghĩ, tin tức cá nhân hoặc gia đình
+
+Quản lý bài đăng: Hỗ trợ chỉnh sửa, xóa bài viết cá nhân và phân loại bài viết theo chủ đề
+
+3.2. Bình luận và thả cảm xúc (Comment and react to posts)
+Tương tác bài viết: Cho phép người dùng bình luận, trả lời bình luận dưới các bài đăng
+
+Bày tỏ cảm xúc: Hỗ trợ thả các cảm xúc (Thích, Yêu thích, Chúc mừng, Chia buồn) trên bài viết
+
+3.3. Chia sẻ tin tức gia đình (Share family news)
+Cập nhật hỷ sự/tếu sự: Đăng tải tin tức về đám cưới, sinh con, đỗ đạt, mừng thọ hoặc tin buồn của các gia đình
+
+Thông báo tự động: Gửi thông báo tin tức mới đến các thành viên trong cùng nhánh chi
+
+3.4. Chia sẻ hình ảnh (Photo sharing)
+Tải ảnh & Album: Cho phép tải lên hình ảnh chất lượng cao, tạo album ảnh kỷ niệm gia đình
+
+Gắn thẻ thành viên: Gắn thẻ (tag) tên thành viên có mặt trong hình ảnh bài đăng
+
+3.5. Thông báo gia tộc (Family announcements)
+Tạo thông báo chính thức: Ban quản trị đăng tải các thông báo quan trọng của dòng họ (họp họ, tu bổ nhà thờ, quỹ khuyến học)
+
+Ghim thông báo: Ghim các thông báo quan trọng lên đầu trang cộng đồng để tất cả thành viên dễ theo dõi
+
+4. Sự kiện dòng họ (Events)
+Mục này quản lý việc tổ chức các hoạt động, nghi lễ và sự kiện tập thể của gia tộc.
+
+4.1. Tạo sự kiện gia tộc (Create family events)
+Khởi tạo sự kiện: Lên lịch các sự kiện như Giỗ tổ, Họp họ đầu năm, Lễ mừng thọ, Lễ tuyên dương khuyến học
+
+Chi tiết sự kiện: Cung cấp thời gian, địa điểm (có bản đồ chỉ đường), nội dung chương trình và người ban tổ chức
+
+4.2. Quản lý xác nhận tham gia (RSVP management)
+Xác nhận tham dự: Cho phép thành viên gửi phản hồi Tham gia, Có thể tham gia, hoặc Vắng mặt kèm số lượng người đi cùng
+
+Thống kê số lượng: Tự động tổng hợp danh sách và số lượng người tham dự thực tế cho ban tổ chức
+
+4.3. Quản lý người tham gia (Participant management)
+Danh sách khách mời: Phân loại danh sách người tham gia theo nhánh chi, độ tuổi hoặc vị trí
+
+Gửi lời mời: Gửi lời mời trực tiếp đến từng thành viên hoặc toàn bộ một chi nhánh
+
+4.4. Thư viện ảnh sự kiện (Event gallery)
+Đóng góp hình ảnh: Cho phép thành viên tham dự tải hình ảnh/video của sự kiện lên album chung
+
+Lưu trữ kỷ niệm: Lưu trữ album sự kiện theo từng năm để tra cứu lại
+
+4.5. Nhắc nhở sự kiện (Event reminders)
+Thông báo tự động: Gửi thông báo nhắc nhở lịch sự kiện qua App/Email/SMS trước 1 ngày, 3 ngày hoặc 1 tuần
+
+Cập nhật thay đổi: Gửi thông báo khẩn cấp đến người tham gia khi có thay đổi về thời gian hoặc địa điểm
+
+5. Danh bạ gia tộc (Family Directory)
+Mục này giúp kết nối các thành viên trong dòng họ, hỗ trợ tra cứu thông tin liên lạc, tạo mạng lưới hỗ trợ nghề nghiệp và học vấn giữa các thế hệ.
+
+5.1. Danh bạ thành viên (Directory)
+Quản lý danh sách liên lạc: Hiển thị danh sách toàn bộ thành viên trong dòng họ với các thông tin liên hệ cơ bản (họ tên, số điện thoại, email, địa chỉ thường trú/tạm trú hiện tại)
+
+Phân loại theo chi nhánh: Phân nhóm danh bạ theo từng nhánh/chi và từng thế hệ để dễ dàng theo dõi
+
+Cài đặt quyền riêng tư: Cho phép thành viên tự cấu hình ẩn/hiện các thông tin cá nhân đối với các nhóm người dùng khác nhau trong dòng họ
+
+5.2. Hồ sơ nghề nghiệp (Professional profiles)
+Thông tin công việc: Quản lý chi tiết lịch sử làm việc, công ty/tổ chức, vị trí/chức vụ và lĩnh vực hoạt động chuyên môn của từng thành viên
+
+Mạng lưới kết nối nghề nghiệp: Hỗ trợ các thành viên trong dòng họ tìm kiếm cơ hội hợp tác, tư vấn nghề nghiệp hoặc hỗ trợ việc làm lẫn nhau
+
+5.3. Hồ sơ học vấn (Education profiles)
+Lịch sử học tập: Quản lý thông tin quá trình học tập (trường học, chuyên ngành, trình độ/bằng cấp: Đại học, Thạc sĩ, Tiến sĩ...)
+
+Ghi nhận thành tích: Lưu trữ thông tin về các giải thưởng, học bổng, công trình nghiên cứu khoa học của thành viên
+
+5.4. Tìm kiếm & Lọc thành viên (Search members by profession, location, or generation)
+Tìm kiếm đa tiêu chí: Cho phép tra cứu nâng cao và lọc thành viên linh hoạt theo nghề nghiệp/lĩnh vực chuyên môn, vị trí địa lý (tỉnh/thành phố, quốc gia hiện đang sinh sống), hoặc thế hệ (đời thứ bao nhiêu trong cây gia phả)
+
+Truy vấn nhanh: Hỗ trợ tìm kiếm theo từ khóa tên, biệt danh hoặc thông tin liên lạc
+
 6. Di sản gia tộc (Family Heritage)
 Mục này đóng vai trò như một bảo tàng số của dòng họ, nhằm lưu trữ, bảo tồn và lưu truyền các giá trị văn hóa, lịch sử truyền thống cho các thế hệ tương lai.
 
