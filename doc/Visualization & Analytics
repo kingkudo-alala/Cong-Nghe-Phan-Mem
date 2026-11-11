@@ -1,0 +1,59 @@
+4.1. Family Tree Visualization
+Mục tiêu: Xây dựng chức năng trực quan hóa cây gia phả, thể hiện mối quan hệ giữa các thành viên trong gia đình.
+
+Công việc thực hiện:
+- Xây dựng sơ đồ cây gia phả theo các thế hệ.
+- Hiển thị thông tin cơ bản của từng thành viên.
+- Thể hiện mối quan hệ giữa các thành viên.
+- Hỗ trợ phóng to, thu nhỏ và di chuyển sơ đồ.
+- Cho phép người dùng lựa chọn thành viên để xem thông tin chi tiết.
+Sản phẩm bàn giao:
+- Giao diện cây gia phả trực quan.
+- Chức năng hiển thị và tra cứu mối quan hệ gia đình.
+4.2. Family Data Visualization
+Mục tiêu: Trực quan hóa dữ liệu gia đình để giúp người dùng dễ dàng theo dõi và quản lý thông tin.
+
+Công việc thực hiện:
+- Xây dựng biểu đồ thống kê số lượng thành viên.
+- Hiển thị thông tin thành viên theo thế hệ.
+- Trực quan hóa các mối quan hệ trong gia đình.
+- Hiển thị dữ liệu về sự kiện và hoạt động gia đình.
+- Thiết kế giao diện biểu đồ dễ quan sát và sử dụng.
+Sản phẩm bàn giao:
+- Các biểu đồ thống kê dữ liệu gia đình.
+- Giao diện tổng quan thông tin gia đình (Family Dashboard).
+4.3. Community Analytics
+Mục tiêu: Phân tích hoạt động của cộng đồng gia đình nhằm giúp quản trị viên theo dõi mức độ tương tác của các thành viên.
+
+Công việc thực hiện:
+- Thống kê số lượng bài đăng, bình luận và lượt tương tác.
+- Theo dõi mức độ hoạt động của thành viên.
+- Thống kê số lượng sự kiện và mức độ tham gia.
+- Tổng hợp dữ liệu hoạt động theo ngày, tháng và năm.
+- Xây dựng báo cáo tổng quan cho quản trị viên.
+Sản phẩm bàn giao:
+- Bảng thống kê hoạt động cộng đồng.
+- Báo cáo phân tích mức độ tương tác.
+- Giao diện quản trị dữ liệu.
+4.4. Data Processing & Analytics
+Mục tiêu: Xử lý và phân tích dữ liệu để cung cấp thông tin thống kê chính xác, hỗ trợ việc quản lý và phát triển cộng đồng gia đình.
+
+Công việc thực hiện:
+- Thu thập dữ liệu từ các chức năng của hệ thống.
+- Làm sạch và xử lý dữ liệu trước khi phân tích.
+- Tổng hợp dữ liệu thành các chỉ số thống kê.
+- Xây dựng bộ lọc dữ liệu theo thời gian và nhóm thông tin.
+- Đảm bảo dữ liệu được cập nhật chính xác và nhất quán.
+Sản phẩm bàn giao:
+- Hệ thống xử lý và tổng hợp dữ liệu.
+- Các chỉ số thống kê của FamilyConnect.
+- Tài liệu mô tả quy trình phân tích dữ liệu.
+4.5. Testing & Optimization
+Mục tiêu: Đảm bảo các chức năng trực quan hóa và phân tích hoạt động chính xác, ổn định và dễ sử dụng.
+
+Công việc thực hiện:
+- Kiểm tra độ chính xác của biểu đồ và số liệu.
+- Kiểm thử khả năng hiển thị cây gia phả với nhiều thành viên.
+- Đánh giá tốc độ tải và cập nhật dữ liệu.
+- Kiểm tra khả năng hiển thị trên Web và Mobile.
+- Tối ưu giao diện và hiệu suất xử lý dữ liệu.
