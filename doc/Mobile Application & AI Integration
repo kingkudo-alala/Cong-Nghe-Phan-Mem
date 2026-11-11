@@ -1,0 +1,51 @@
+3.1. Mobile Application Development
+Mục tiêu: Xây dựng ứng dụng di động có giao diện thân thiện, dễ sử dụng và tương thích với các thiết bị Android, iOS.
+
+Công việc thực hiện:
+- Xây dựng giao diện đăng ký, đăng nhập và quản lý tài khoản.
+- Phát triển chức năng quản lý gia đình và thành viên.
+- Xây dựng cây gia phả và hiển thị mối quan hệ giữa các thành viên.
+- Phát triển chức năng đăng bài, bình luận và chia sẻ hình ảnh.
+- Xây dựng chức năng quản lý sự kiện và thông báo.
+- Kết nối ứng dụng với hệ thống Backend thông qua RESTful API.
+Sản phẩm bàn giao:
+- Ứng dụng FamilyConnect trên thiết bị di động.
+- Giao diện người dùng hoàn chỉnh.
+- Tài liệu hướng dẫn sử dụng ứng dụng.
+3.2. AI Service Integration
+Mục tiêu: Tích hợp AI nhằm hỗ trợ người dùng tìm kiếm thông tin, tra cứu dữ liệu và nâng cao trải nghiệm sử dụng FamilyConnect.
+
+Công việc thực hiện:
+- Tích hợp AI Chatbot để trả lời câu hỏi và hỗ trợ người dùng.
+- Xây dựng chức năng tìm kiếm thông tin gia đình bằng ngôn ngữ tự nhiên.
+- Phát triển hệ thống gợi ý nội dung và hoạt động phù hợp.
+- Hỗ trợ tra cứu thông tin gia phả và các dữ liệu gia đình.
+- Kết nối AI Service với Backend thông qua API.
+- Kiểm tra độ chính xác và khả năng phản hồi của AI.
+Sản phẩm bàn giao:
+- AI Chatbot tích hợp trong ứng dụng.
+- Chức năng tìm kiếm thông minh.
+- Hệ thống gợi ý nội dung.
+- Tài liệu mô tả và hướng dẫn tích hợp AI.
+3.3. Mobile – Backend Integration
+Mục tiêu: Đảm bảo ứng dụng di động và hệ thống Backend có thể trao đổi dữ liệu ổn định, chính xác và an toàn.
+
+Công việc thực hiện:
+- Kết nối ứng dụng với RESTful API.
+- Đồng bộ thông tin tài khoản, gia đình và bài đăng.
+- Tích hợp xác thực người dùng bằng JWT.
+- Xử lý dữ liệu và thông báo từ máy chủ.
+- Kiểm tra khả năng kết nối và xử lý lỗi khi truyền dữ liệu.
+Sản phẩm bàn giao:
+- Ứng dụng kết nối hoàn chỉnh với Backend.
+- Các chức năng đồng bộ dữ liệu.
+- Tài liệu kiểm thử tích hợp.
+3.4. Testing & Optimization
+Mục tiêu: Đảm bảo ứng dụng hoạt động ổn định, dễ sử dụng và đáp ứng các yêu cầu đã đề ra.
+
+Công việc thực hiện:
+- Kiểm thử các chức năng trên Android và iOS.
+- Kiểm tra tốc độ tải dữ liệu và khả năng phản hồi.
+- Đánh giá độ chính xác của các chức năng AI.
+- Kiểm tra bảo mật và quyền truy cập dữ liệu.
+- Sửa lỗi giao diện, chức năng và tối ưu hiệu suất.
