@@ -1,0 +1,55 @@
+2.1. Requirement Elicitation & Stakeholder Analysis
+Xác định nhu cầu của người dùng và các đối tượng tham gia vào hệ thống FamilyConnect.
+Các công việc thực hiện:
+- Xác định các nhóm người dùng: thành viên gia đình, quản trị viên gia đình và quản trị viên hệ thống.
+- Thu thập yêu cầu thông qua khảo sát, phỏng vấn và phân tích nhu cầu.
+- Xác định yêu cầu chức năng và phi chức năng.
+- Phân tích vai trò và quyền hạn của từng nhóm người dùng.
+- Xác định mức độ ưu tiên của các chức năng.
+Kết quả đầu ra: Tài liệu SRS, danh sách yêu cầu chức năng, phi chức năng và bảng phân quyền người dùng.
+2.2. Business Process Modelling
+Mô tả cách người dùng tương tác với hệ thống và trình tự xử lý của các chức năng chính.
+Các công việc thực hiện:
+- Xây dựng quy trình đăng ký, đăng nhập và quản lý tài khoản.
+- Mô tả quy trình quản lý gia đình và thành viên.
+- Mô hình hóa hoạt động xây dựng, cập nhật gia phả.
+- Mô tả quy trình đăng bài, bình luận và quản lý sự kiện.
+- Xây dựng các sơ đồ Use Case và Activity Diagram.
+Kết quả đầu ra: Use Case Diagram, Activity Diagram và tài liệu mô tả quy trình nghiệp vụ.
+2.3. Software Architecture Design
+Xây dựng kiến trúc tổng thể, xác định các thành phần và cách thức hoạt động của hệ thống.
+Các công việc thực hiện:
+- Xác định kiến trúc Web, Mobile và Backend.
+- Phân chia các module: User, Family, Genealogy, Community, Event và AI.
+- Xác định công nghệ sử dụng cho Frontend, Backend và Database.
+- Thiết kế cơ chế kết nối thông qua RESTful API.
+- Xác định giải pháp bảo mật và triển khai bằng Docker.
+Kết quả đầu ra: Sơ đồ kiến trúc hệ thống (System Architecture Diagram) và tài liệu thiết kế phần mềm.
+2.4. Database Design
+Thiết kế cấu trúc lưu trữ và quản lý dữ liệu cho toàn bộ nền tảng FamilyConnect bằng PostgreSQL.
+Các công việc thực hiện:
+- Xác định các thực thể như Users, Families, Members, Relationships, Posts và Events.
+- Xác định thuộc tính và mối quan hệ giữa các bảng.
+- Thiết kế khóa chính, khóa ngoại và các ràng buộc dữ liệu.
+- Xây dựng sơ đồ ERD.
+- Xác định phương án sao lưu và bảo vệ dữ liệu.
+Kết quả đầu ra: ERD, Database Schema và Data Dictionary.
+2.5. UI/UX Design
+Thiết kế giao diện trực quan, dễ sử dụng và phù hợp với nhiều nhóm tuổi, đảm bảo trải nghiệm thống nhất trên Web và Mobile.
+Các công việc thực hiện:
+- Thiết kế giao diện đăng nhập và đăng ký.
+- Thiết kế trang chủ và bảng điều khiển.
+- Thiết kế giao diện quản lý gia đình và sơ đồ gia phả.
+- Thiết kế các màn hình cộng đồng, sự kiện và lưu trữ di sản.
+- Thiết kế giao diện trợ lý AI.
+- Xây dựng Wireframe và Prototype.
+Kết quả đầu ra: User Flow, Wireframe, UI Design và Interactive Prototype.
+2.6. API Specification
+Xác định phương thức giao tiếp và trao đổi dữ liệu giữa Frontend, Backend, Mobile và các dịch vụ AI.
+Các công việc thực hiện:
+- Xây dựng danh sách API cho từng module.
+- Xác định endpoint và phương thức HTTP.
+- Quy định dữ liệu đầu vào và đầu ra theo định dạng JSON.
+- Thiết lập cơ chế xác thực JWT và phân quyền.
+- Xây dựng quy chuẩn xử lý lỗi và mã trạng thái HTTP.
+- Sử dụng Swagger/OpenAPI để quản lý tài liệu API.
