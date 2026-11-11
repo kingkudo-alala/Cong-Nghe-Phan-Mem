@@ -1,63 +1,120 @@
- 6. Thống kê & Báo cáo (Dashboard & Reporting)
+6. Di sản gia tộc (Family Heritage)
+Mục này đóng vai trò như một bảo tàng số của dòng họ, nhằm lưu trữ, bảo tồn và lưu truyền các giá trị văn hóa, lịch sử truyền thống cho các thế hệ tương lai.
+
+6.1. Tài liệu lịch sử (Historical documents)
+Bảo tồn văn bản cổ: Lưu trữ số hóa các tài liệu lịch sử dòng họ (sắc phong, văn bản chữ Nôm/chữ Hán, bản chép tay gia phả cũ, văn bia)
+
+Trích yếu & Giải nghĩa: Cung cấp thông tin mô tả, dịch nghĩa, mốc thời gian và nguồn gốc của từng tài liệu lịch sử
+
+6.2. Câu chuyện dòng họ (Family stories)
+Đăng tải & Phân loại câu chuyện: Cho phép thành viên biên soạn và chia sẻ các câu chuyện truyền thuyết, kỷ niệm, bài viết về nguồn gốc dòng họ hoặc các mốc lịch sử quan trọng
+
+Tương tác & Đóng góp: Cho phép các thành viên khác bình luận, bổ sung thông tin hoặc đính kèm tư liệu liên quan vào câu chuyện
+
+6.3. Thành viên ưu tú (Outstanding family members)
+Vinh danh & Ghi danh: Danh sách và hồ sơ chi tiết của các thành viên có đóng góp to lớn cho dòng họ, đất nước, danh nhân lịch sử hoặc thành viên có thành tích học tập/lao động xuất sắc
+
+Bảng vàng truyền thống: Hiển thị danh hiệu, công trạng và các bài viết vinh danh theo từng thời kỳ
+
+6.4. Thư viện ảnh di sản (Photo gallery)
+Quản lý Album tư liệu: Lưu trữ và sắp xếp hình ảnh tư liệu lịch sử, ảnh nhà thờ tổ, ảnh mộ phần, di tích hoặc các sự kiện giỗ tổ/họp họ theo mốc thời gian
+
+Gắn thẻ thành viên (Tagging): Cho phép nhận diện và gắn thẻ các thành viên xuất hiện trong các bức ảnh di sản
+
+6.5. Kho lưu trữ số (Digital archives)
+Quản lý đa phương tiện: Khai thác và lưu trữ an toàn các tệp dữ liệu kỹ thuật số chất lượng cao (PDF, video quay lễ hội/họp họ, ghi âm phỏng vấn các cụ cao niên trong họ)
+
+Phân quyền & Bảo mật tài liệu: Cấu hình quyền truy cập (chỉ xem, tải về hoặc chỉnh sửa) đối với các tư liệu quý hiếm của gia tộc
+
+7. Dịch vụ hỗ trợ AI (AI-assisted Services)
+Mục này tích hợp trí tuệ nhân tạo nhằm nâng cao trải nghiệm tra cứu, phân tích dữ liệu gia phả và cá nhân hóa tương tác cho người dùng.
+
+7.1. Tìm kiếm ngữ nghĩa bằng AI (AI-powered semantic search)
+Tìm kiếm tự nhiên: Cho phép người dùng tra cứu dữ liệu gia phả bằng ngôn ngữ tự nhiên thay vì chỉ tìm chính xác từ khóa (ví dụ: "tìm cháu ngoại của cụ A làm bác sĩ tại Hà Nội")
+
+Hiểu ngữ cảnh: AI tự động phân tích ý định tìm kiếm, xử lý các từ ngữ xưng hô gia đình và trả về kết quả chính xác theo ngữ cảnh
+
+7.2. Trợ lý tri thức gia tộc AI (AI family knowledge assistant)
+Hỏi đáp tự động: Trợ lý ảo AI trả lời các câu hỏi về lịch sử dòng họ, ngày giỗ tổ, nguồn gốc các chi nhánh dựa trên kho dữ liệu di sản và gia phả đã được xác thực
+
+Hỗ trợ thành viên: Giải đáp các thắc mắc về nội quy dòng họ, lịch trình sự kiện và hướng dẫn sử dụng hệ thống
+
+7.3. Giải thích quan hệ họ hàng AI (AI relationship explanation)
+Phân tích thứ bậc: Tự động tính toán và giải thích mối quan hệ họ hàng phức tạp giữa hai thành viên bất kỳ (ví dụ: giải thích mối quan hệ "ông họ", "chú bác ruột", "anh em họ 3 đời")
+
+Hướng dẫn xưng hô: Đưa ra gợi ý xưng hô đúng chuẩn mực văn hóa truyền thống dựa trên thứ bậc trong cây gia phả
+
+7.4. Tóm tắt nội dung AI (AI content summarization)
+Tóm tắt câu chuyện & Tài liệu: Tự động tạo bản tóm tắt ngắn gọn cho các bài viết lịch sử dài, tài liệu gia phả chữ Hán/Nôm đã dịch hoặc các biên bản họp gia tộc
+
+Tóm tắt hoạt động: Tổng hợp các diễn biến chính trong cộng đồng gia tộc theo từng khoảng thời gian cho thành viên bận rộn
+
+7.5. Gợi ý thông minh AI (AI recommendation of related members and family resources)
+   
+Gợi ý kết nối thành viên: Đề xuất các thành viên có cùng ngành nghề, địa điểm sinh sống hoặc độ tuổi để tăng cường kết nối trong gia tộc
+
+Đề xuất tài nguyên liên quan: Tự động gợi ý các hình ảnh, câu chuyện hoặc tài liệu di sản liên quan đến nhánh chi và thế hệ của người dùng đang xem
+
+8. Thống kê & Báo cáo (Dashboard & Reporting)
 
 Mục này cung cấp cái nhìn tổng quan về sự phát triển của dòng họ, mức độ tương tác của các thành viên và hỗ trợ ban quản trị gia tộc đưa ra các quyết định/hoạt động phù hợp.
 
- 6.1. Thống kê gia tộc (Family Statistics)
+ 8.1. Thống kê gia tộc (Family Statistics)
 
 Thống kê nhân khẩu học: Tổng số thành viên qua các thế hệ, số lượng thành viên còn sống / đã mất, tỷ lệ nam/nữ, phân bố độ tuổi, tình trạng hôn nhân.
 Thống kê phân bổ địa lý: Biểu đồ thể hiện sự phân bố vị trí sinh sống/làm việc của các thành viên trong dòng họ trên bản đồ.
 Thống kê trình độ & Nghề nghiệp: Tỷ lệ học vấn (Đại học, Thạc sĩ, Tiến sĩ...) và các nhóm ngành nghề phổ biến trong dòng họ.
 
- 6.2. Bảng điều khiển hoạt động cộng đồng (Community Activity Dashboard)
+ 8.2. Bảng điều khiển hoạt động cộng đồng (Community Activity Dashboard)
 
 Thống kê bài viết & Tương tác: Số lượng bài viết mới, lượt bình luận, lượt thả cảm xúc theo ngày/tần suất tuần/tháng.
 Thống kê nội dung di sản: Số lượng tài liệu, câu chuyện dòng họ, hình ảnh di sản mới được đóng góp.
 Theo dõi mức độ tích cực: Danh sách/bảng xếp hạng các nhánh chi hoặc thành viên đóng góp nhiều bài viết/di sản nhất.
 
- 6.3. Thống kê sự kiện (Event Statistics)
+ 8.3. Thống kê sự kiện (Event Statistics)
 
 Số lượng & Loại hình sự kiện: Tổng số sự kiện gia tộc (giỗ tổ, họp họ, mừng thọ, khuyến học...) diễn ra trong năm.
 Tỷ lệ tham gia (RSVP Rate): Thống kê số lượng thành viên xác nhận tham gia, từ chối hoặc không phản hồi đối với từng sự kiện.
 Đánh giá & Chi phí sự kiện: Tổng hợp lượt phản hồi và thống kê ngân sách/thu chi (nếu có) cho từng sự kiện.
 
-6.4.  Thống kê Nhân khẩu học (Demographics)
+8.4.  Thống kê Nhân khẩu học (Demographics)
 Biểu đồ tháp tuổi/giới tính, tỷ lệ sinh/tử, tuổi thọ trung bình, tình trạng hôn nhân (dâu/rể), phân bố theo từng đời (thế hệ) và nơi cư trú (nội địa/ngoại quốc).
 
-6.5. Trích xuất báo cáo (Report Generation)
+8.5. Trích xuất báo cáo (Report Generation)
 
 Xuất cây gia phả: Hỗ trợ xuất sơ đồ cây gia phả (toàn bộ hoặc theo từng nhánh chi) ra định dạng **PDF**, **PNG/SVG** hoặc **File in cỡ lớn**.
 Xuất danh bạ gia tộc: Cho phép tải về danh sách liên lạc, danh sách thành viên theo từng chi/nhánh dưới dạng **Excel/CSV**.
 Báo cáo tổng kết định kỳ: Tự động tạo báo cáo tổng kết hoạt động dòng họ (theo năm hoặc nhân dịp giỗ tổ) gồm: các sự kiện đã diễn ra, thành viên mới sinh, thành viên đã mất, thành viên có thành tích xuất sắc.
 
 
- 7. Quản trị hệ thống (Administration)
+ 9. Quản trị hệ thống (Administration)
 
 Mục này dành cho Ban quản trị hệ thống (System Admin) và Ban quản trị dòng họ (Family Admin) nhằm vận hành, bảo mật và duy trì tính toàn vẹn dữ liệu của platform.
 
- 7.1. Quản lý người dùng (User Management)
+ 9.1. Quản lý người dùng (User Management)
 
 Quản lý tài khoản: Danh sách toàn bộ người dùng, xem chi tiết, kích hoạt, khóa hoặc xóa tài khoản.
 Xác minh thành viên (Verification Approval): Phê duyệt hoặc từ chối các yêu cầu xác minh danh tính/liên kết tài khoản người dùng vào cây gia phả từ Ban quản trị chi/dòng họ.
 Reset mật khẩu & Cấp lại quyền: Hỗ trợ người dùng khôi phục tài khoản khi mất thông tin đăng nhập.
 
-7.2. Kiểm duyệt nội dung (Content Moderation)
+9.2. Kiểm duyệt nội dung (Content Moderation)
 
 Kiểm duyệt bài viết & Di sản: Phê duyệt bài viết, hình ảnh, tài liệu lịch sử trước hoặc sau khi đăng tải (tùy thuộc vào cấu hình kiểm duyệt).
 Quản lý báo cáo vi phạm (Report Management): Xử lý các báo cáo từ người dùng về nội dung sai sự thật, xúc phạm hoặc không phù hợp với văn hóa dòng họ.
 Danh sách từ khóa cấm (Blacklist Keywords): Cấu hình tự động chặn các từ khóa nhạy cảm, vi phạm chuẩn mực đạo đức/pháp luật trong bài viết và bình luận.
 
- 7.3. Nhật ký hệ thống (Audit Logging)
+ 9.3. Nhật ký hệ thống (Audit Logging)
 
 Nhật ký thao tác (Activity Logs): Ghi lại chi tiết toàn bộ các hành động quan trọng (Thêm/sửa/xóa thành viên trên cây gia phả, thay đổi quyền người dùng, xuất dữ liệu...).
 Nhật ký truy cập (Access Logs): Lịch sử đăng nhập, thiết bị sử dụng, địa chỉ IP và các truy cập thất bại để phát hiện bất thường.
 Tra cứu & Tìm kiếm Log: Hỗ trợ lọc log theo thời gian, người thực hiện, loại hành động và mức độ nghiêm trọng (Info, Warning, Error).
 
- 7.4. Sao lưu & Khôi phục (Backup & Restore)
+ 9.4. Sao lưu & Khôi phục (Backup & Restore)
 
 Sao lưu tự động & Thủ công: Cấu hình lịch sao lưu định kỳ (hàng ngày/hàng tuần) cho cơ sở dữ liệu PostgreSQL và các tệp di sản (hình ảnh, tài liệu); hoặc kích hoạt sao lưu thủ công trước khi nâng cấp hệ thống.
 Khôi phục dữ liệu (Data Recovery): Cho phép Admin khôi phục lại dữ liệu hệ thống về một điểm thời gian (Point-in-Time Restore) khi gặp sự cố dữ liệu.
 
- 7.5. Cấu hình hệ thống (System Configuration)
+ 9.5. Cấu hình hệ thống (System Configuration)
 
 Cấu hình tham số chung: Tên dòng họ, logo, quy định/nội quy dòng họ, cấu hình gửi Mail/SMS OTP.
 Cấu hình tích hợp AI Services: Quản lý API Key, giới hạn lưu lượng (rate limit), bật/tắt các tính năng AI (Semantic Search, AI Assistant, AI Relationship explanation).
