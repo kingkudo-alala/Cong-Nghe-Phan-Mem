@@ -1,0 +1,75 @@
+5.1. Functional Testing
+Mục tiêu: Kiểm tra tính chính xác và đầy đủ của các chức năng trong hệ thống.
+
+Công việc thực hiện:
+- Kiểm thử đăng ký, đăng nhập và quản lý tài khoản.
+- Kiểm tra chức năng quản lý gia đình và thành viên.
+- Kiểm thử cây gia phả và các mối quan hệ.
+- Kiểm tra đăng bài, bình luận và quản lý sự kiện.
+- Kiểm thử Chatbot AI và chức năng tìm kiếm thông minh.
+- Kiểm tra biểu đồ thống kê và báo cáo dữ liệu.
+Sản phẩm bàn giao:
+- Báo cáo kiểm thử chức năng.
+- Danh sách lỗi và kết quả xử lý.
+5.2. Integration Testing
+Mục tiêu: Đảm bảo các thành phần của hệ thống có thể kết nối và hoạt động đồng bộ.
+
+Công việc thực hiện:
+- Kiểm tra kết nối giữa Frontend, Backend và Database.
+- Kiểm thử quá trình trao đổi dữ liệu thông qua RESTful API.
+- Kiểm tra kết nối giữa ứng dụng Mobile và Backend.
+- Kiểm thử khả năng tích hợp các dịch vụ AI.
+- Kiểm tra quá trình xác thực và phân quyền người dùng.
+Sản phẩm bàn giao:
+- Báo cáo kiểm thử tích hợp.
+- Hệ thống các module hoạt động đồng bộ.
+5.3. Performance & Security Testing
+Mục tiêu: Đánh giá hiệu suất và khả năng bảo vệ dữ liệu của hệ thống.
+
+Công việc thực hiện:
+- Kiểm tra tốc độ phản hồi và tải dữ liệu.
+- Đánh giá khả năng xử lý khi có nhiều người dùng truy cập.
+- Kiểm tra cơ chế xác thực JWT và phân quyền.
+- Kiểm tra quyền truy cập dữ liệu gia đình.
+- Đánh giá khả năng sao lưu và khôi phục dữ liệu.
+- Phát hiện và khắc phục các lỗi bảo mật.
+Sản phẩm bàn giao:
+- Báo cáo hiệu suất hệ thống.
+- Báo cáo kiểm thử bảo mật.
+- Kết quả khắc phục các lỗi được phát hiện.
+5.4. Deployment & Configuration
+Mục tiêu: Triển khai FamilyConnect lên môi trường máy chủ để người dùng có thể truy cập và sử dụng.
+
+Công việc thực hiện:
+- Cấu hình môi trường triển khai bằng Docker.
+- Triển khai Backend và Database PostgreSQL.
+- Triển khai giao diện Web và kết nối tên miền.
+- Cấu hình HTTPS và các thông số bảo mật.
+- Thiết lập sao lưu dữ liệu và ghi nhật ký hệ thống.
+- Kiểm tra hoạt động của hệ thống sau triển khai.
+Sản phẩm bàn giao:
+- Hệ thống FamilyConnect được triển khai trên máy chủ.
+- Môi trường Web và Backend hoạt động ổn định.
+- Tài liệu cấu hình và triển khai.
+5.5. User Acceptance Testing (UAT)
+Mục tiêu: Đánh giá mức độ đáp ứng của hệ thống đối với nhu cầu sử dụng thực tế.
+
+Công việc thực hiện:
+- Tổ chức cho người dùng thử nghiệm hệ thống.
+- Thu thập ý kiến phản hồi từ các thành viên và quản trị viên.
+- Đánh giá giao diện và mức độ dễ sử dụng.
+- Kiểm tra các chức năng theo yêu cầu ban đầu.
+- Điều chỉnh và hoàn thiện hệ thống dựa trên phản hồi.
+Sản phẩm bàn giao:
+- Báo cáo đánh giá từ người dùng.
+- Danh sách yêu cầu điều chỉnh.
+- Biên bản nghiệm thu hệ thống.
+5.6. Documentation & Handover
+Mục tiêu: Hoàn thiện tài liệu và bàn giao sản phẩm để thuận tiện cho việc sử dụng, quản lý và bảo trì.
+
+Công việc thực hiện:
+- Viết tài liệu hướng dẫn sử dụng.
+- Hoàn thiện tài liệu kỹ thuật và cấu hình hệ thống.
+- Chuẩn bị hướng dẫn quản trị và sao lưu dữ liệu.
+- Bàn giao mã nguồn và tài liệu liên quan.
+- Tổng kết kết quả thực hiện dự án.
